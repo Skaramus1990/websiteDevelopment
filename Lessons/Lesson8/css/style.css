@@ -1,0 +1,72 @@
+p a:first-child {
+    color: aqua;
+}
+
+p i a:last-child {
+    color: gray;
+}
+
+tr:first-of-type td:first-child {
+    background-color: brown;
+}
+
+tr:first-of-type td:last-child {
+    background-color: cadetblue;
+}
+
+tr:nth-of-type(2) td:first-child {
+    background-color: chartreuse;
+}
+
+tr:nth-of-type(2) td:last-child {
+    background-color: coral;
+}
+
+tr:last-of-type td {
+    background-color: crimson;
+}
+
+tr {
+    height: 200px;
+}
+
+td {
+    width: 200px;
+}
+
+
+div li:first-child a:first-of-type {
+    color: yellow;
+}
+
+div li:last-child a:last-of-type {
+    color: red;
+}
+
+div em:first-of-type a:first-child {
+    color: green;
+}
+
+div p a:first-child {
+    color: blue;
+}
+
+
+
+div span em:first-child {
+    color: violet;
+}
+
+
+
+strong:first-of-type {
+    color: chocolate;
+}
+
+ul:last-child em:last-of-type a:first-child {
+    color: orange;
+}
+
+ul:last-child em:first-of-type a:first-child {
+    color: indigo;
+}
