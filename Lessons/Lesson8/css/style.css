@@ -1,11 +1,5 @@
-p a:first-child {
-    color: aqua;
-}
 
-p i a:last-child {
-    color: gray;
-}
-
+/*table*/
 tr:first-of-type td:first-child {
     background-color: brown;
 }
@@ -34,13 +28,15 @@ td {
     width: 200px;
 }
 
+/*firs ul*/
 
 div li:first-child a:first-of-type {
-    color: yellow;
+    color: red;
+
 }
 
 div li:last-child a:last-of-type {
-    color: red;
+    color: yellow;
 }
 
 div em:first-of-type a:first-child {
@@ -51,22 +47,28 @@ div p a:first-child {
     color: blue;
 }
 
+p a:first-child {
+    color: gray;
 
+}
+
+p i a:last-child {
+    color: aqua;
+}
 
 div span em:first-child {
     color: violet;
 }
 
-
-
+/*last ul*/
 strong:first-of-type {
     color: chocolate;
 }
 
-ul:last-child em:last-of-type a:first-child {
+ul:last-child li:nth-child(2) em:first-of-type a {
     color: orange;
 }
 
-ul:last-child em:first-of-type a:first-child {
+ul:last-child li:last-child em:last-of-type a {
     color: indigo;
 }

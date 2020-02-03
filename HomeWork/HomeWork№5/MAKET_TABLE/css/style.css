@@ -1,0 +1,47 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.headerFooterStyle {
+    padding: 20px;
+    background-color: #add8e6;
+    text-align: center;
+    color: blue;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.menuStyle {
+    vertical-align: top;
+    min-width: 200px;
+    background-color: #f0e68c;
+    padding-left: 20px;
+}
+
+ul {
+    padding-left: 19px;
+}
+
+.floatImg {
+    float: left;
+    margin-right: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.ballImage {
+    background: url("../img/ball.png") repeat-y right top;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.textBodyPaddings {
+    padding-left: 20px;
+    padding-right: 20px;
+}

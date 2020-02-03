@@ -1,0 +1,35 @@
+.star1:hover ~ p {
+    background-image: url('../img/redStar.PNG');
+}
+
+.star2:hover ~ p {
+    background-image: url('../img/redStar.PNG');
+}
+
+.star3:hover ~ p {
+    background-image: url('../img/redStar.PNG');
+}
+
+.star4:hover ~ p {
+    background-image: url('../img/redStar.PNG');
+}
+
+.star5:hover ~ p {
+    background-image: url('../img/redStar.PNG');
+}
+
+p {
+    width: 93px;
+    height: 97px;
+    float: left;
+    background-image: url("../img/star.PNG");
+}
+
+p:hover {
+    background-image: url('../img/redStar.PNG');
+}
+
+.stars {
+    transform: rotateY(180deg);
+    float: left;
+}
