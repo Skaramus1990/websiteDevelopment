@@ -21,7 +21,7 @@
 p {
     width: 93px;
     height: 97px;
-    float: left;
+    float: right;
     background-image: url("../img/star.PNG");
 }
 
@@ -30,6 +30,5 @@ p:hover {
 }
 
 .stars {
-    transform: rotateY(180deg);
     float: left;
 }
