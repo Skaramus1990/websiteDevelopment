@@ -14,7 +14,6 @@
 }
 
 div.welcomeBlock ul {
-    list-style-type: none;
     margin-top: 132px;
 }
 
@@ -49,7 +48,7 @@ div.welcomeBlock ul li p:nth-of-type(2) {
 }
 
 div.welcomeBlock ul li p:last-of-type {
-    margin-top: 40px;
+    margin-top: 20px;
     color: #8e8e8e;
     font-size: 16px;
     line-height: 27px;
@@ -67,7 +66,7 @@ div.welcomeBlock ul li p:last-of-type {
 }
 
 .rocket {
-    margin-left: 108px;
+    margin-left: 107px;
     width: 41px;
     height: 61px;
     margin-top: -28px;
@@ -85,7 +84,7 @@ div.welcomeBlock ul li p:last-of-type {
 .shield {
     margin-left: 98px;
     width: 59px;
-    height: 49px;
+    height: 51px;
     margin-top: -22px;
     background: url('../img/welcome/shield.png') no-repeat center, url('../img/welcome/rectangle.jpg');
 }
@@ -97,4 +96,28 @@ div.welcomeBlock ul li p:last-of-type {
     margin-top: 20px;
     margin-bottom: 19px;
     margin-left: 103px;
+}
+
+.forHover:hover {
+    border-color: black;
+}
+
+.forHover:hover p:last-of-type {
+    color: black;
+}
+
+.forHover:hover .brilliant {
+    background: url('../img/welcome/brilliantB.png') no-repeat center, url('../img/welcome/rectangle.jpg');
+}
+
+.forHover:hover .rocket {
+    background: url('../img/welcome/rocketB.png') no-repeat center, url('../img/welcome/rectangle.jpg');
+}
+
+.forHover:hover .mark {
+    background: url('../img/welcome/markB.png') no-repeat center, url('../img/welcome/rectangle.jpg');
+}
+
+.forHover:hover .shield {
+    background: url('../img/welcome/shieldB.png') no-repeat center, url('../img/welcome/rectangle.jpg');
 }

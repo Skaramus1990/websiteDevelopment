@@ -9,7 +9,7 @@
     background-color: #f8f8f8;
 }
 
-.recentWork h1{
+.recentWork h1 {
     padding-top: 80px;
 }
 
@@ -39,7 +39,7 @@
     background-color: #f8f8f8;
 }
 
-.portfolio li{
+.portfolio li {
     float: left;
 }
 
@@ -55,4 +55,43 @@
     margin-top: 40px;
     display: inline-block;
     margin-bottom: 40px;
+}
+
+.portfolio div:first-of-type {
+    width: 350px;
+    height: 297px;
+    background: url("../img/recent/target.png") 50% 40% no-repeat, url("../img/recent/overlay.png"), url("../img/recent/portfolio2.png");
+}
+
+.portfolio div:first-of-type p:first-child {
+    color: #333333;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    text-transform: uppercase;
+}
+
+.portfolio div:first-of-type p:last-child {
+    color: #8e8e8e;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.portfolioTextOnImage {
+    width: 350px;
+    height: 80px;
+    background-color: #ffffff;
+    float: left;
+}
+
+.portfolioTextOnImage p {
+    text-align: left;
+    margin-left: 31px;
+}
+
+.portfolioTextOnImage p:first-child {
+    margin-top: 17px;
 }

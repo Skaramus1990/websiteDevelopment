@@ -1,0 +1,74 @@
+.whoWork {
+    width: 1110px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.whoWork ul {
+    margin-top: 100px;  }
+
+.whoWorkBackground {
+    background: url("../img/whoWork/background.png") no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+.whoWork h1 {
+    padding-top: 80px;
+}
+
+.whoTextOnImage {
+    width: 255px;
+    height: 80px;
+    background-color: #ffffff;
+}
+
+.whoWork li {
+    float: left;
+    text-align: left;
+}
+
+.whoWork li:not(:last-of-type) {
+    margin-right: 30px;
+}
+
+.whoWork div:first-child {
+    width: 255px;
+    height: 260px;
+}
+
+.man1 {
+    background: url("../img/whoWork/man1.png") no-repeat;
+}
+
+.man2 {
+    background: url("../img/whoWork/man2.png") no-repeat;
+}
+
+.man3 {
+    background: url("../img/whoWork/man3.png") no-repeat;
+}
+
+.man4 {
+    background: url("../img/whoWork/man4.png") no-repeat;
+}
+
+.whoTextOnImage p:first-child {
+    color: #333333;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 17px;
+    padding-left: 30px;
+}
+
+.whoTextOnImage p:last-child {
+    padding-left: 30px;
+    padding-top: 7px;
+    color: #8e8e8e;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+}

@@ -1,0 +1,68 @@
+.bestPractice {
+    width: 1110px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.bestPractice li div p:first-child {
+    margin-top: -16px;
+    color: #333333;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin-left: 28px;
+    background-color: #ffffff;
+}
+
+.basicPrice {
+    width: 60px;
+}
+
+.standartPrice {
+    width: 106px;
+}
+
+.enterprisePrice {
+    width: 112px;
+}
+
+.platinumPrice {
+    width: 100px;
+}
+
+.bestPractice li  {
+    width: 255px;
+    height: 428px;
+    border: 1px solid #cccccc;
+    float: left;
+}
+
+.bestPractice ul {
+    margin-top: 108px;
+}
+
+.bestPractice li:not(:last-child) {
+    margin-right: 25px;
+}
+
+.hoverBestPractice:hover {
+    border-color: black;
+}
+
+.many {
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 30px;
+    color: #333333;
+    font-size: 36px;
+}
+
+.month {
+    color: #8e8e8e;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
