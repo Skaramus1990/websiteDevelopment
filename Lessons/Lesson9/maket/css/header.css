@@ -34,8 +34,19 @@ div.headerContainer li:hover {
 }
 
 div.headerContainer ul:first-of-type {
-    list-style-type: none;
     float: right;
     margin-top: 45px;
     color: #8e8e8e;;
+}
+
+h1 {
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 80px;
+}
+
+ul {
+    list-style-type: none;
 }
