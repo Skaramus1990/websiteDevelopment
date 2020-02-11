@@ -1,0 +1,47 @@
+@import "style.css";
+
+@media all and (max-width: 1150px) {
+    .container {
+        width: 800px;
+    }
+
+    .welcomeBlock ul {
+        margin-left: 150px;
+    }
+
+    .welcomeBlock ul li:nth-child(n - 2) {
+        margin-top: 30px;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .container {
+        width: 600px;
+    }
+
+    .menu {
+        display: none;
+    }
+}
+
+@media all and (max-width: 650px) {
+    .container {
+        width: 320px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    div.slider p:nth-of-type(2) {
+        width: 320px;
+    }
+
+    .welcomeBlock ul {
+        margin-left: 30px;
+    }
+
+    .welcomeBlock ul li {
+        margin-left: 0px;
+    }
+}

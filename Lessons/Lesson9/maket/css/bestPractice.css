@@ -4,7 +4,7 @@
     text-align: center;
 }
 
-.bestPractice li div p:first-child {
+.bestPractice li div:first-child p:first-child {
     margin-top: -16px;
     color: #333333;
     font-family: Lato;
@@ -32,7 +32,7 @@
     width: 100px;
 }
 
-.bestPractice li  {
+.bestPractice .mainUl li {
     width: 255px;
     height: 428px;
     border: 1px solid #cccccc;
@@ -65,4 +65,17 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+}
+
+.hoverBestPractice div:nth-child(2) {
+    margin-left: 32px;
+    margin-top: 49px;
+}
+
+.hoverBestPractice div:nth-child(2) p {
+    float: left;
+}
+
+.clear:after {
+    clear: both;
 }
