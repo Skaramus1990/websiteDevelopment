@@ -57,12 +57,6 @@
     margin-bottom: 40px;
 }
 
-.portfolio div:first-of-type {
-    width: 350px;
-    height: 297px;
-    background: url("../img/recent/target.png") 50% 40% no-repeat, url("../img/recent/overlay.png"), url("../img/recent/portfolio2.png");
-}
-
 .portfolio div:first-of-type p:first-child {
     color: #333333;
     font-family: Lato;
@@ -94,4 +88,29 @@
 
 .portfolioTextOnImage p:first-child {
     margin-top: 17px;
+}
+
+.portfolio li {
+    position: relative;
+}
+
+.portfolio li div:first-of-type {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.hoverImage {
+    opacity: 0;
+}
+
+.target {
+    background: url("../img/recent/target.png") no-repeat center;
+    width: 350px;
+    height: 298px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.portfolio li:hover .hoverImage {
+    opacity: 1;
 }
