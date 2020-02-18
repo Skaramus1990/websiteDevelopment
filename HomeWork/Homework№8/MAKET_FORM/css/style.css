@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.labels {
+    float: left;
+    width: 185px;
+    display: inline;
+}
+
+.fields {
+    margin-left: 185px;
+}
+
+form div * {
+    margin-top: 10px;
+}
+
+.labels label {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#nameArticle {
+    width: 400px;
+}
+
+#textArticle {
+    width: 585px;
+}
+
+.formDiv {
+    margin-top: 10px;
+    margin-left: 10px;
+}
