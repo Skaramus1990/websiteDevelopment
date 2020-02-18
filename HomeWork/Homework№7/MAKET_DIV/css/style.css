@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#headersStyle {
+    padding: 20px;
+    background-color: #add8e6;
+    text-align: center;
+    color: blue;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#bodySite {
+    background: url("../img/menu_background.png");
+}
+
+#menu {
+    float: left;
+    width: 200px;
+    padding-left: 20px;
+}
+
+#content {
+    margin-left: 200px;
+    background: url("../img/ball.png") right top repeat-y, url("../img/content_background.png");
+    padding-left: 10px;
+    overflow-x: hidden;
+}
+
+.floatLeftForImage {
+    float: left;
+    padding-right: 20px;
+}
+
+h2:first-of-type {
+    text-align: center;
+}
